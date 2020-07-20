@@ -3,9 +3,12 @@ h1{
     text-align: center;
 }
 .loop_wrap{
+    position: relative;
     display: flex;
     width: 100vw;
     height: 300px;
+    left: 50%;
+  　margin-left: -50vw;
     overflow: hidden;
 }
 
