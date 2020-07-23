@@ -28,6 +28,8 @@
         document.addEventListener("keydown", keyDownHandler, false);
         document.addEventListener("keyup", keyUpHandler, false);
         document.addEventListener("mousemove", mouseMoveHandler, false);
+        document.addEventListener("touchmove", touchMoveHandler, false);
+
         
         function mouseMoveHandler(e){
             var relativeX = e.clientX - canvas.offsetLeft;
@@ -49,6 +51,12 @@
                 rightPressed = false;
             }else if(e.key == "Left" || e.key == "ArrowLeft"){
                 leftPressed = false;
+            }
+        }
+        function touchMoveHandler(e){
+            var relativeX2 = e.clientX - canvas.offsetLeft;
+            if(relativeX2 >0 && relativeX2 < canvas.width){
+                paddleX = relativeX2 - paddleWidth/2;
             }
         }
 
