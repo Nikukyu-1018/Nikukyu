@@ -3,9 +3,12 @@ header{
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
+    background-image: url(IMG_8705.jpg);
+    background-size: cover;
 }
-header.logo1{
-    font-size: 32px;
+
+.logo1{
+    font-size: 20px;
     color: black;
 }
 .nav-list{
@@ -18,6 +21,6 @@ header.logo1{
     display: inline-block;
     margin: 0 20px;
 }
-.h2{
-    text-align: center;
-}
+.ositene{
+    margin: 0 auto;
+}   
