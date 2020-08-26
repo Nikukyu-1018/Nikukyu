@@ -30,12 +30,13 @@ header{
     text-align: center;
 }
 .mypicture{
-    float: left;
+    margin:0 auto;
 }
 .picture{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    margin:0 auto;
 }
 .heading{
     text-align: center;
