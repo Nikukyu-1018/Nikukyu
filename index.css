@@ -29,8 +29,10 @@ header{
 .ositene{
     text-align: center;
 }
-.picture{
+.mypicture{
     float: left;
+}
+.picture{
     width: 100px;
     height: 100px;
     object-fit: cover;
