@@ -5,6 +5,7 @@ header{
     text-align: center;
     background-image: url(IMG_8705.JPG);
     background-size: cover;
+    background-position: top;
 }
 
 .logo1{
@@ -22,5 +23,5 @@ header{
     margin: 0 20px;
 }
 .ositene{
-    margin: 0 auto;
+    text-align: center;
 }   
