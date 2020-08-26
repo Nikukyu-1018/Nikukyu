@@ -24,4 +24,13 @@ header{
 }
 .ositene{
     text-align: center;
+}
+.picture{
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.heading{
+    text-align: center;
 }   
