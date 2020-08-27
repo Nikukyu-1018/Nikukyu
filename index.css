@@ -7,9 +7,10 @@ header{
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
-    background-image: url(IMG_8705.JPG);
+    background-image: url(IMG_8705.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .logo1{
@@ -29,12 +30,13 @@ header{
 .ositene{
     text-align: center;
 }
-.picture{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    
+.mypicture{
+    text-align: center;
 }
 .heading{
     text-align: center;
+}
+#slideshow{
+    width: 250px;
+    height: 250px;
 }   
